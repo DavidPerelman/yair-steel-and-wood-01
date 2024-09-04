@@ -1,0 +1,128 @@
+.container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  gap: 190px;
+  z-index: 9999;
+  /* transition: 0.6s; */
+  color: black;
+  border-bottom: none;
+  background-color: transparent;
+  background-color: white;
+}
+
+.home {
+  background-color: transparent;
+  color: rgb(44, 43, 43);
+  font-weight: bold;
+  border-bottom: none;
+}
+
+.white {
+  border-bottom: inset;
+  background-color: white;
+}
+
+.sticky {
+  background-color: white;
+  border-bottom: inset;
+  color: black;
+  font-weight: normal;
+}
+
+.stickyMenuOpen {
+  background-color: var(--bg);
+}
+
+.contactLinks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  margin-top: 6px;
+}
+
+.logoButtonsWhite {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%)
+    hue-rotate(179deg) brightness(108%) contrast(100%);
+}
+
+.logoButtonsGray {
+  filter: brightness(0) saturate(100%) invert(55%) sepia(0%) saturate(0%)
+    hue-rotate(83deg) brightness(91%) contrast(92%);
+}
+
+.menuButtonWhite {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%)
+    hue-rotate(179deg) brightness(108%) contrast(100%);
+}
+
+.menuButtonGray {
+  filter: brightness(0) saturate(100%) invert(55%) sepia(0%) saturate(0%)
+    hue-rotate(83deg) brightness(91%) contrast(92%);
+}
+
+.navLinkButtonsWhite {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%)
+    hue-rotate(179deg) brightness(108%) contrast(100%);
+}
+
+.navLinkTitlesGray {
+  filter: brightness(0) saturate(100%) invert(55%) sepia(0%) saturate(0%)
+    hue-rotate(83deg) brightness(91%) contrast(92%);
+}
+
+.stickyLogoOpenIcons {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%)
+    hue-rotate(179deg) brightness(108%) contrast(100%);
+}
+
+.stickymenuButtonOpen {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%)
+    hue-rotate(179deg) brightness(108%) contrast(100%);
+}
+
+.stickyNavLinkTitlesOpen {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%)
+    hue-rotate(179deg) brightness(108%) contrast(100%);
+}
+
+#gmailLogo {
+  margin-top: 2px;
+  margin-right: 2px;
+}
+
+#whatsappLogo {
+  margin-left: 4px;
+}
+
+@media (min-width: 768px) {
+  .sticky {
+    background-color: white;
+    border-bottom: inset;
+    color: black;
+    font-weight: normal;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    gap: 100px;
+  }
+}
+
+@media (max-width: 568px) {
+  .container {
+    gap: 50px;
+  }
+}
+
+@media (max-width: 468px) {
+  .container {
+    gap: 20px;
+  }
+}

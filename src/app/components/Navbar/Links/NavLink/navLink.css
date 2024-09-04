@@ -1,0 +1,7 @@
+.navLinkTitle {
+  color: var(--bg);
+}
+
+.underline {
+  border-bottom: solid #808080;
+}
